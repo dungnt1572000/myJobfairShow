@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_Hanhdong">
+
+    <fragment
+        android:id="@+id/fragment_Hanhdong"
+        android:name="com.example.myjfshowkotlin.ui.main.hanhdong.Fragment_Hanhdong"
+        android:label="Fragment_Hanhdong" />
+    <fragment
+        android:id="@+id/fragment_Love"
+        android:name="com.example.myjfshowkotlin.ui.main.love.Fragment_Love"
+        android:label="Fragment_Love" />
+    <fragment
+        android:id="@+id/fragment_Profile"
+        android:name="com.example.myjfshowkotlin.ui.main.profile.Fragment_Profile"
+        android:label="Fragment_Profile" />
+    <fragment
+        android:id="@+id/fragment_PhepThuat"
+        android:name="com.example.myjfshowkotlin.ui.main.phepthuat.Fragment_PhepThuat"
+        android:label="Fragment_PhepThuat" />
+    <fragment
+        android:id="@+id/fragment_Tuvung"
+        android:name="com.example.myjfshowkotlin.ui.main.tuvungFragment.Fragment_Tuvung"
+        android:label="Fragment_Tuvung" />
+    <fragment
+        android:id="@+id/fragment_SavedData"
+        android:name="com.example.myjfshowkotlin.ui.main.savedata.Fragment_SavedData"
+        android:label="fragment__saved_data"
+        tools:layout="@layout/fragment__saved_data" />
+</navigation>

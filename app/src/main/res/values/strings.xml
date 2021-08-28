@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">myJFShowkotlin</string>
+    <string name="drawer_open">Open Drawer for more</string>
+    <string name="drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_hanhdong">Hanh Dong</string>
+    <string name="menu_phapthuat">Phep Thuat</string>
+    <string name="menu_love">Tinh Yeu</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_saveData">SaveData</string>
+</resources>
